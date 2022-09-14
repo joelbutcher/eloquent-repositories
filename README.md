@@ -1,5 +1,18 @@
 # Eloquent Repositories
 
+<a href="https://github.com/joelbutcher/eloquent-repositories/actions">
+    <img src="https://github.com/joelbutcher/eloquent-repositories/workflows/tests/badge.svg" alt="Build Status">
+</a>
+<a href="https://packagist.org/packages/joelbutcher/eloquent-repositories">
+    <img src="https://img.shields.io/packagist/dt/joelbutcher/eloquent-repositories" alt="Total Downloads">
+</a>
+<a href="https://packagist.org/packages/joelbutcher/eloquent-repositories">
+    <img src="https://img.shields.io/packagist/v/joelbutcher/eloquent-repositories" alt="Latest Stable Version">
+</a>
+<a href="https://packagist.org/packages/joelbutcher/eloquent-repositories">
+    <img src="https://img.shields.io/packagist/l/joelbutcher/eloquent-repositories" alt="License">
+</a>
+
 Eloquent Repositories is a light-weight solution to add the repository pattern (built on top of Eloquent) to your Laravel project.
 
 ## Requirements
