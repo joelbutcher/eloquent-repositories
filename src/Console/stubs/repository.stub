@@ -1,0 +1,10 @@
+<?php
+
+namespace {{ namespace }};
+
+use JoelButcher\EloquentRepositories\Repository;
+
+class {{ class }} extends Repository
+{
+    //
+}
