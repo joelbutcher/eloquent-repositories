@@ -1,0 +1,19 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ namespacedModel }};
+use JoelButcher\EloquentRepositories\Repository;
+
+class {{ class }} extends Repository
+{
+    /**
+     * Returns the name of the repository's corresponding model.
+     *
+     * @return string
+     */
+    protected static function model(): string
+    {
+        return {{ model }}::class;
+    }
+}

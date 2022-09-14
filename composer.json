@@ -1,0 +1,50 @@
+{
+    "name": "joelbutcher/eloquent-repositories",
+    "type": "library",
+    "description": "A repository pattern implementation for Laravel Eloquent models.",
+    "keywords": ["laravel", "repositories", "eloquent"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joel Butcher",
+            "email": "joel@joelbutcher.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JoelButcher\\EloquentRepositories\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JoelButcher\\EloquentRepositories\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0.2",
+        "illuminate/database": "^9.0",
+        "illuminate/support": "^9.0",
+        "illuminate/console": "^9.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.22",
+        "mockery/mockery": "^1.5",
+        "orchestra/testbench": "^7.7",
+        "laravel/pint": "^1.2",
+        "nunomaduro/larastan": "^2.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JoelButcher\\EloquentRepositories\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
